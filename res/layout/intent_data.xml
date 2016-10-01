@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/data_text"
+        android:textColor="#ff00ff"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/data_boy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/data_boy" />
+
+    <EditText
+        android:id="@+id/data_girl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/data_girl" />
+
+    <Button
+        android:id="@+id/data_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/data_submit" />
+
+</LinearLayout>
